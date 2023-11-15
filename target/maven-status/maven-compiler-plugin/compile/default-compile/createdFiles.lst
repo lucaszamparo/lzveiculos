@@ -1,0 +1,4 @@
+com\example\crm\controller\ClienteController.class
+com\example\crm\LzveiculosApplication.class
+com\example\crm\repository\VeiculoRepository.class
+com\example\crm\model\Veiculo.class
