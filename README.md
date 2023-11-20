@@ -62,43 +62,21 @@ Além disso, empregamos o Postman para visualização e teste dos dados. O Postm
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 
-<!-- GETTING STARTED -->
+<!-- ARQUITETURA -->
 ## ARQUITETURA
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Na arquitetura utilizamos controller e Model para criação do projeto juntamente ao Spring Boot. Segue explicação do que foi feito em cada camada:
 
-### Prerequisites
+<h3><ul><b>Controller:</b></h3> Na camada de Controller, implementamos a lógica de controle e coordenação das operações da aplicação.
+Controllers em Spring Boot gerenciam as requisições HTTP, chamam métodos do Model e no caso de uma API, qual resposta, deve ser enviada de volta ao cliente.
+Exemplo da loja de veículos: Um controlador de veículos pode conter métodos para listar, adicionar, atualizar ou excluir veículos no estoque.</ul>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<h3><ul><b>Model:</b></h3> A camada de Model representa a estrutura de dados da aplicação e a lógica de negócios. Entidades Java, como Veículo, são modeladas para refletir as entidades reais na loja de veículos. Repositórios Spring Data JPA são utilizados para interagir com o banco de dados, encapsulando operações de acesso a dados.
+Exemplo: Uma entidade Veículo pode ter modelo, marca, cor, ano, placa e assim realizamos o cadastro dos mesmos e métodos na classe model.</ul>
 
-### Installation
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
+<!-- FUNCIONALIDADES -->
 ## FUNCIONALIDADES
 
 <h3>1. Cadastro de Veículos (Create):</h3>
@@ -116,11 +94,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <h2><b>Video demonstrativo do sistema:</b></h2>
-<iframe src="https://drive.google.com/file/d/125krAfCV_orfVEpgH8hbmxhmHFCmyfKC/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/125krAfCV_orfVEpgH8hbmxhmHFCmyfKC/preview" width="140" height="120" allow="autoplay"></iframe>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 [Java.js]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://www.java.com/pt-BR/
 [Spring.js]: https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring&logoColor=white
