@@ -125,6 +125,7 @@ Assegura uma gestão eficaz e atualizada do inventário.</ul>
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <h2><b>Video demonstrativo do sistema:</b></h2>
+<iframe src="https://drive.google.com/file/d/125krAfCV_orfVEpgH8hbmxhmHFCmyfKC/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
