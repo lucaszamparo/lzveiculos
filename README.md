@@ -28,27 +28,21 @@ Use the `BLANK_README.md` to get started.
 </p>
 
 <p align="left">
-  💼 Ferramentas: **Coloque as suas ferramentas de trabalho.**
+  💼 Ocupação: Analista de Negocios JR
 </p>
 
 <p align="left">
-  💌 Aqui vai uma mensagem para entrar em contato com você: ⤵️
+  💌 Entre em contato comigo: ⤵️
 </p>
 
 <p align="left">
-  <a href="#" title="Gmail">
+  <a href="mailto: lucas.zamparo@gmail.com" title="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-GMAIL" alt="Gmail"/></a>
 
-  <a href="#" title="LinkedIn">
+  <a href="https://www.linkedin.com/lucaszamparo" title="LinkedIn">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" alt="LinkedIn"/></a>
-
-  <a href="#" title="WhatsApp">
-  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP" alt="WhatsApp"/></a>
-
-  <a href="#" title="Facebook">
-  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=LINK-DO-SEU-FACEBOOK" alt="Facebook"/></a>
-
-  <a href="#" title="Instagram">
+  
+  <a href="https://www.instagram.com/lucaszamparoo/" title="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM" alt="Instagram"/></a>
 </p>
 
@@ -110,11 +104,27 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## FUNCIONALIDADES
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<h3>1. Cadastro de Veículos (Create):</h3>
+<ul>Permite a adição de novos veículos ao estoque da concessionária.
+Campos incluem informações detalhadas como modelo, ano, cor, quilometragem, número de chassi, e preço.
+Facilita a entrada eficiente de novos veículos no sistema.</ul>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<h3>2. Consulta de Veículos (Read):</h3>
+<ul>Fornece uma interface de consulta para visualizar todos os veículos disponíveis no estoque.
+Permite a aplicação de filtros para uma busca mais específica, como por modelo, ano ou preço.
+Apresenta informações relevantes de cada veículo de forma clara e organizada.</ul>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<h3>3. Atualização de Informações (Update):</h3>
+<ul>Possibilita a edição de detalhes dos veículos, como correção de informações incorretas ou atualização de preços.
+Garante a manutenção de registros precisos no sistema.</ul>
+
+<h3>4. Remoção de Veículos (Delete):</h3>
+<ul>Permite a exclusão de veículos do sistema, especialmente útil para itens que foram vendidos ou retirados do estoque.
+Assegura uma gestão eficaz e atualizada do inventário.</ul>
+
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+
+<h2><b>Video demonstrativo do sistema:</b></h2>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
