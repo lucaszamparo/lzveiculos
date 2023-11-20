@@ -1,38 +1,37 @@
-<!-- ABOUT THE PROJECT -->
+<!-- SOBRE O PROJETO -->
 ## DESCRIÇÃO DO PROJETO
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+<h3>1. Propósito da Aplicação:</h3>
+<ul>O sistema de controle de estoque desenvolvido para a loja de veículos (LZVeiculos) tem como principal objetivo otimizar e organizar o gerenciamento dos produtos disponíveis em estoque. Ele visa facilitar o acompanhamento dos níveis de estoque, controlar o cadastro de veículos, além de fornecer uma lista com as informações de estoque. A aplicação busca aprimorar a eficiência operacional da loja, reduzir erros humanos e garantir uma gestão mais precisa dos recursos. Esse projeto foi desenvolvido para o componente curricular de Programação Orientada a Objetos no curso de Engenharia de Computação na Universidade São Francisco.</ul>
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+<h3>2. Público-Alvo:</h3>
+<ul>O público-alvo do sistema inclui os colaboradores da loja de veículos responsáveis pela gestão do estoque, como gerentes, supervisores, e funcionários do setor de vendas e logística. A interface da aplicação será projetada de forma intuitiva, permitindo que usuários com diferentes níveis de familiaridade com sistemas de controle de estoque possam utilizá-la de maneira eficiente.</ul>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+<h3>3. Principais Recursos a Serem Implementados:</h3>
 
-Use the `BLANK_README.md` to get started.
+<ul><b>3.1 Cadastro de Veículos:</b> Permite o cadastro detalhado de cada veículo em estoque, incluindo informações como modelo, ano, cor, quilometragem, número de chassi, entre outros.</ul>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<ul><b>3.2 Controle de Estoque:</b> Monitoramento em tempo real dos níveis de estoque, através da visualização de uma lista com todos os veiculos cadastrados atualmente.</ul>
 
+<ul><b>3.3 Manutenção de Estoque:</b> Manutenção de estoque, permitindo que seja possível realizar a edição de veiculos, em caso de erros técnicos ou informações incorretas na hora de seu cadastro.</ul>
+
+<ul><b>3.4 Exclusão de Veículo:</b> O sistema permite a exclusão de veículos, para melhor gerenciamento. Utilizado ao realizar vendas ou cadastro incorreto.</ul>
+
+<!-- MENU DESENVOLVEDOR -->
 ## DESENVOLVEDOR
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
-  Faça uma breve aprensentação sua com o seu nome e não esqueça a <strong>Sua área</strong>.<br>
-  Diga o que você está fazendo no momento, se trabalha ou estuda.
+ Meu nome é <b>Lucas Zamparo (RA: 202101432)</b>, sou Analista de Negócios e Programador na Avery Dennison há três anos. Combinando minha paixão pela tecnologia e visão estratégica, desenvolvi soluções eficientes que impulsionam a eficiência operacional da empresa. Ao longo desse período também ingressei no curso de Engenharia de Computação na Universidade São Francisco.
 </p>
 
 <p align="left">
-  🦄 Linguagens: **Coloque as linguagens que você desenvolve.**
+  💼 <b>Ocupação:</b> Analista de Negocios JR
 </p>
 
 <p align="left">
-  💼 Ocupação: Analista de Negocios JR
-</p>
-
-<p align="left">
-  💌 Entre em contato comigo: ⤵️
+  💌 <b>Entre em contato comigo:</b> ⤵️
 </p>
 
 <p align="left">
@@ -105,22 +104,16 @@ _Below is an example of how you can instruct your audience on installing and set
 ## FUNCIONALIDADES
 
 <h3>1. Cadastro de Veículos (Create):</h3>
-<ul>Permite a adição de novos veículos ao estoque da concessionária.
-Campos incluem informações detalhadas como modelo, ano, cor, quilometragem, número de chassi, e preço.
-Facilita a entrada eficiente de novos veículos no sistema.</ul>
+<ul>Permite a adição de novos veículos ao estoque da concessionária. Campos incluem informações detalhadas como marca, modelo, ano, cor, placa. Facilitando a entrada eficiente de novos veículos no sistema.</ul>
 
 <h3>2. Consulta de Veículos (Read):</h3>
-<ul>Fornece uma interface de consulta para visualizar todos os veículos disponíveis no estoque.
-Permite a aplicação de filtros para uma busca mais específica, como por modelo, ano ou preço.
-Apresenta informações relevantes de cada veículo de forma clara e organizada.</ul>
+<ul>Fornece uma interface de consulta para visualizar todos os veículos disponíveis no estoque. Permite a visualização de uma lista apresentando informações relevantes de cada veículo de forma clara e organizada.</ul>
 
 <h3>3. Atualização de Informações (Update):</h3>
-<ul>Possibilita a edição de detalhes dos veículos, como correção de informações incorretas ou atualização de preços.
-Garante a manutenção de registros precisos no sistema.</ul>
+<ul>Possibilita a edição de detalhes dos veículos, como correção de informações incorretas ou atualizações. Garante a manutenção de registros precisos no sistema.</ul>
 
 <h3>4. Remoção de Veículos (Delete):</h3>
-<ul>Permite a exclusão de veículos do sistema, especialmente útil para itens que foram vendidos ou retirados do estoque.
-Assegura uma gestão eficaz e atualizada do inventário.</ul>
+<ul>Permite a exclusão de veículos do sistema, especialmente útil para itens que foram vendidos ou retirados do estoque. Assegura uma gestão eficaz e atualizada do inventário.</ul>
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
